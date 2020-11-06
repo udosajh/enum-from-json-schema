@@ -1,0 +1,25 @@
+{
+  "name": "enum-from-json-schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "lint": "tslint -c tslint.json -p tsconfig.src.json",
+    "build": "npm run lint && tsc -p tsconfig.src.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udosajh/enum-from-json-schema.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udosajh/enum-from-json-schema/issues"
+  },
+  "homepage": "https://github.com/udosajh/enum-from-json-schema#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "@types/node": "^14.14.6"
+  }
+}
